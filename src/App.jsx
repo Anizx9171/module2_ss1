@@ -1,22 +1,23 @@
-import './App.css'
-import Main from './components/Shoping/Main'
-import Baner from './components/manager-product/Baner'
-import Footer from './components/manager-product/Footer'
-import Header from './components/manager-product/Header'
-import ListProduct from './components/manager-product/ListProduct'
-import Navbar from './components/manager-product/Navbar'
+import "./App.css";
+import Table from "./components2/Table";
 
 function App() {
   return (
     <>
-      {/* <Header/>
-      <Navbar/>
-      <Baner />
-      <ListProduct />
-      <Footer/> */}
-      <Main/>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title text-uppercase mb-0">MANAGER USER</h5>
+              </div>
+              <Table />
+            </div>
+          </div>
+        </div>
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
